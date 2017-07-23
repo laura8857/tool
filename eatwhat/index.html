@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geocoding service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #floating-panel {
+            position: absolute;
+            top: 100px;
+            left: 0%;
+            z-index: 5;
+            background-color: #fff;
+            padding: 5px;
+            border: 1px solid #999;
+            text-align: center;
+            font-family: 'Roboto', 'sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+        #store {
+            text-align: center;
+            font-family: 'Roboto', 'sans-serif';
+            font-size: 100%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <br>
+    <div id="store" style="height:50px;"></div>
+    <div id="floating-panel">
+        <input id="address" type="textbox" value="">
+        <input id="submit" type="button" value="Go">
+    </div>
+    <div id="map" style="width:100%;height:400px;"></div>
+    <input id="next" style="height:50px;width:100%;" type="button" value="下一家">
+
+    <script>
+        $.getJSON('eatwhat.json', function(json) {
+            var data_size = json.eatwhat.length;
+            var randon_seed = Math.floor(Math.random() * data_size);
+            document.getElementById("address").value = json.eatwhat[randon_seed].address;
+            var show_string = "今天吃" + json.eatwhat[randon_seed].address + "的" + json.eatwhat[randon_seed].storeName;
+            document.getElementById('store').innerHTML = show_string;
+        });
+
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 19,
+                center: {
+                    lat: 25.034007,
+                    lng: 121.559811
+                }
+            });
+            var geocoder = new google.maps.Geocoder();
+            document.getElementById('submit').addEventListener('click', function() {
+                geocodeAddress(geocoder, map);
+            });
+            window.onload = function() {
+                geocodeAddress(geocoder, map);
+            }
+        }
+
+        function geocodeAddress(geocoder, resultsMap) {
+            var address = document.getElementById('address').value;
+            geocoder.geocode({
+                'address': address
+            }, function(results, status) {
+                if (status === 'OK') {
+                    resultsMap.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: resultsMap,
+                        position: results[0].geometry.location
+                    });
+                } else {
+                    alert('Geocode was not successful for the following reason: ' + status);
+                }
+            });
+        }
+
+        document.getElementById('next').addEventListener('click', function() {
+            window.location.reload();
+        });
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ2QOCXAnnT5w9nGF-n7RZvVyCr35sXf8&callback=initMap">
+    </script>
+</body>
+
+</html>

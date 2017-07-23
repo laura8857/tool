@@ -1,0 +1,1028 @@
+2017-07-05 02:28:53:165 - info: [Appium] Welcome to Appium v1.6.3
+2017-07-05 02:28:53:168 - info: [Appium] Non-default server args:
+2017-07-05 02:28:53:169 - info: [Appium]   log: '/Users/huweiting/Desktop/appium.log'
+2017-07-05 02:28:53:217 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2017-07-05 02:30:53:677 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:30:53:680 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null]
+2017-07-05 02:30:53:683 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:30:53:683 - info: [Appium] Capabilities:
+2017-07-05 02:30:53:684 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:30:53:685 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:30:53:685 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:30:53:685 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:30:53:686 - info: [Appium]   bundleId: ''
+2017-07-05 02:30:53:686 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:30:53:686 - info: [Appium]   autoWebview: false
+2017-07-05 02:30:53:686 - info: [Appium]   browserName: ''
+2017-07-05 02:30:53:687 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:30:53:687 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:30:53:687 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:30:53:688 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:30:53:688 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:30:53:688 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:30:53:688 - info: [Appium]   noRest: false
+2017-07-05 02:30:53:688 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:30:53:691 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:30:53:696 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:30:53:726 - info: [BaseDriver] Session created with session id: f0000766-861f-47c6-866d-6574d199e4f7
+2017-07-05 02:30:53:765 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:30:53:774 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:30:53:918 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:30:53:920 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:30:53:925 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:30:53:927 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:30:53:930 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:30:54:480 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-9aemm5.1vke/appium-app.zip
+2017-07-05 02:30:54:482 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-9aemm5.1vke/appium-app.zip
+2017-07-05 02:30:56:977 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-9aemm5.1vke/Payload/Deepblu.app'
+2017-07-05 02:30:56:978 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-9aemm5.1vke/Payload/Deepblu.app' is actually present
+2017-07-05 02:30:56:979 - info: [debug] [XCUITest] App is present
+2017-07-05 02:30:56:983 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-9aemm5.1vke/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:30:56:987 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:30:56:987 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:30:57:185 - info: [XCUITest] Setting up real device
+2017-07-05 02:30:57:508 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:30:57:508 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:30:57:510 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:30:57:510 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:30:57:511 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:30:57:514 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:30:57:547 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:30:57:548 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:30:57:548 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:30:57:550 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:30:58:079 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:30:58:080 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:30:58:081 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:30:58:082 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:30:58:091 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:30:58:091 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:30:58:091 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:30:58:092 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:30:58:342 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:30:58:342 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:30:58:342 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:30:58:343 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:30:58:348 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:30:58:351 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:30:58:352 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/f0000766-861f-47c6-866d-6574d199e4f7] to [DELETE http://localhost:8100/session/f0000766-861f-47c6-866d-6574d199e4f7] with no body
+2017-07-05 02:30:58:358 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:30:58:371 - info: [HTTP] <-- POST /wd/hub/session 500 4692 ms - 237 
+2017-07-05 02:30:58:381 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:30:58:382 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null]
+2017-07-05 02:30:58:383 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:30:58:383 - info: [Appium] Capabilities:
+2017-07-05 02:30:58:383 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:30:58:384 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:30:58:384 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:30:58:385 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:30:58:385 - info: [Appium]   bundleId: ''
+2017-07-05 02:30:58:385 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:30:58:386 - info: [Appium]   autoWebview: false
+2017-07-05 02:30:58:386 - info: [Appium]   browserName: ''
+2017-07-05 02:30:58:386 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:30:58:386 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:30:58:386 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:30:58:387 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:30:58:387 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:30:58:387 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:30:58:387 - info: [Appium]   noRest: false
+2017-07-05 02:30:58:387 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:30:58:389 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:30:58:390 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:30:58:392 - info: [BaseDriver] Session created with session id: f6979190-559d-4bc0-aba2-5727213e1439
+2017-07-05 02:30:58:392 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:30:58:393 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:30:58:475 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:30:58:475 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:30:58:478 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:30:58:479 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:30:58:479 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:30:58:707 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-qfvkx1.dsip/appium-app.zip
+2017-07-05 02:30:58:707 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-qfvkx1.dsip/appium-app.zip
+2017-07-05 02:31:01:164 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-qfvkx1.dsip/Payload/Deepblu.app'
+2017-07-05 02:31:01:165 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-qfvkx1.dsip/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:01:165 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:01:168 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-qfvkx1.dsip/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:01:169 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:01:169 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:01:233 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:01:594 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:01:595 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:01:596 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:01:596 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:01:596 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:01:597 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:01:600 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:01:600 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:01:600 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:01:601 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:01:781 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:01:782 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:01:782 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:01:784 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:01:787 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:01:787 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:01:787 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:01:788 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:01:974 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:01:974 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:01:975 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:01:975 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:01:979 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:01:981 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:01:982 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/f6979190-559d-4bc0-aba2-5727213e1439] to [DELETE http://localhost:8100/session/f6979190-559d-4bc0-aba2-5727213e1439] with no body
+2017-07-05 02:31:01:985 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:01:987 - info: [HTTP] <-- POST /wd/hub/session 500 3605 ms - 237 
+2017-07-05 02:31:01:995 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:01:995 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null]
+2017-07-05 02:31:01:995 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:01:996 - info: [Appium] Capabilities:
+2017-07-05 02:31:01:996 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:01:996 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:01:996 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:01:997 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:01:997 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:01:997 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:01:997 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:01:997 - info: [Appium]   browserName: ''
+2017-07-05 02:31:01:997 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:01:998 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:01:998 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:01:998 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:01:998 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:01:998 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:01:998 - info: [Appium]   noRest: false
+2017-07-05 02:31:01:999 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:02:000 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:02:002 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:02:004 - info: [BaseDriver] Session created with session id: 3ef3c81c-ab3a-421f-85fd-2724098538df
+2017-07-05 02:31:02:004 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:02:005 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:02:087 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:02:088 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:02:088 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:02:089 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:02:089 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:02:316 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-m6cfvt.0zm4/appium-app.zip
+2017-07-05 02:31:02:317 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-m6cfvt.0zm4/appium-app.zip
+2017-07-05 02:31:04:713 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-m6cfvt.0zm4/Payload/Deepblu.app'
+2017-07-05 02:31:04:713 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-m6cfvt.0zm4/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:04:714 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:04:716 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-m6cfvt.0zm4/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:04:717 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:04:717 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:04:832 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:05:003 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:05:003 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:05:004 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:05:004 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:05:004 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:05:004 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:05:007 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:05:007 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:05:008 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:05:008 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:05:183 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:05:183 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:05:183 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:05:184 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:05:188 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:05:188 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:05:188 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:05:189 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:05:361 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:05:361 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:05:361 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:05:362 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:05:365 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:05:366 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:05:366 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/3ef3c81c-ab3a-421f-85fd-2724098538df] to [DELETE http://localhost:8100/session/3ef3c81c-ab3a-421f-85fd-2724098538df] with no body
+2017-07-05 02:31:05:369 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:05:370 - info: [HTTP] <-- POST /wd/hub/session 500 3374 ms - 237 
+2017-07-05 02:31:05:374 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:05:375 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:05:375 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:05:375 - info: [Appium] Capabilities:
+2017-07-05 02:31:05:376 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:05:376 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:05:377 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:05:377 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:05:377 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:05:377 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:05:377 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:05:377 - info: [Appium]   browserName: ''
+2017-07-05 02:31:05:378 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:05:378 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:05:378 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:05:378 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:05:378 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:05:379 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:05:379 - info: [Appium]   noRest: false
+2017-07-05 02:31:05:379 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:05:379 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:05:380 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:05:381 - info: [BaseDriver] Session created with session id: 208493ca-16b7-4848-a402-8b26f623a84c
+2017-07-05 02:31:05:382 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:05:382 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:05:459 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:05:459 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:05:460 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:05:460 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:05:460 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:05:661 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1s23ial.459g/appium-app.zip
+2017-07-05 02:31:05:661 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1s23ial.459g/appium-app.zip
+2017-07-05 02:31:08:105 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1s23ial.459g/Payload/Deepblu.app'
+2017-07-05 02:31:08:105 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1s23ial.459g/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:08:107 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:08:119 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1s23ial.459g/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:08:120 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:08:123 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:08:231 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:08:399 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:08:399 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:08:400 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:08:400 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:08:400 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:08:401 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:08:406 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:08:406 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:08:407 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:08:407 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:08:594 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:08:594 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:08:595 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:08:596 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:08:600 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:08:600 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:08:601 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:08:601 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:08:788 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:08:788 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:08:789 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:08:789 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:08:794 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:08:795 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:08:795 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/208493ca-16b7-4848-a402-8b26f623a84c] to [DELETE http://localhost:8100/session/208493ca-16b7-4848-a402-8b26f623a84c] with no body
+2017-07-05 02:31:08:799 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:08:801 - info: [HTTP] <-- POST /wd/hub/session 500 3426 ms - 237 
+2017-07-05 02:31:08:808 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:08:809 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:08:810 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:08:810 - info: [Appium] Capabilities:
+2017-07-05 02:31:08:810 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:08:810 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:08:811 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:08:811 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:08:811 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:08:812 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:08:812 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:08:812 - info: [Appium]   browserName: ''
+2017-07-05 02:31:08:812 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:08:812 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:08:813 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:08:813 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:08:813 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:08:813 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:08:813 - info: [Appium]   noRest: false
+2017-07-05 02:31:08:813 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:08:815 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:08:816 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:08:818 - info: [BaseDriver] Session created with session id: c9b41396-e37c-4bce-a62f-28e4cb4c9bf5
+2017-07-05 02:31:08:818 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:08:819 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:08:902 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:08:902 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:08:904 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:08:904 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:08:904 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:09:134 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-2b6y70.ir36t/appium-app.zip
+2017-07-05 02:31:09:134 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-2b6y70.ir36t/appium-app.zip
+2017-07-05 02:31:11:556 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-2b6y70.ir36t/Payload/Deepblu.app'
+2017-07-05 02:31:11:557 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-2b6y70.ir36t/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:11:557 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:11:559 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-2b6y70.ir36t/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:11:559 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:11:559 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:11:681 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:11:848 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:11:848 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:11:848 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:11:849 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:11:849 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:11:850 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:11:854 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:11:855 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:11:855 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:11:855 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:12:045 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:12:045 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:12:045 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:12:045 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:12:051 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:12:052 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:12:052 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:12:052 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:12:244 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:12:244 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:12:245 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:12:245 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:12:250 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:12:251 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:12:251 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/c9b41396-e37c-4bce-a62f-28e4cb4c9bf5] to [DELETE http://localhost:8100/session/c9b41396-e37c-4bce-a62f-28e4cb4c9bf5] with no body
+2017-07-05 02:31:12:254 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:12:256 - info: [HTTP] <-- POST /wd/hub/session 500 3447 ms - 237 
+2017-07-05 02:31:12:261 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:12:261 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:12:262 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:12:262 - info: [Appium] Capabilities:
+2017-07-05 02:31:12:263 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:12:263 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:12:263 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:12:264 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:12:264 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:12:264 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:12:264 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:12:264 - info: [Appium]   browserName: ''
+2017-07-05 02:31:12:265 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:12:265 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:12:265 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:12:265 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:12:265 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:12:265 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:12:266 - info: [Appium]   noRest: false
+2017-07-05 02:31:12:266 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:12:268 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:12:270 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:12:271 - info: [BaseDriver] Session created with session id: e501fd24-6ab6-4a2e-ba74-3f362bb662ea
+2017-07-05 02:31:12:272 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:12:273 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:12:350 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:12:351 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:12:351 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:12:351 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:12:352 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:12:568 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1fipcx2.yzja/appium-app.zip
+2017-07-05 02:31:12:568 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1fipcx2.yzja/appium-app.zip
+2017-07-05 02:31:15:088 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1fipcx2.yzja/Payload/Deepblu.app'
+2017-07-05 02:31:15:088 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1fipcx2.yzja/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:15:089 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:15:091 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1fipcx2.yzja/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:15:091 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:15:092 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:15:211 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:15:389 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:15:389 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:15:389 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:15:390 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:15:390 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:15:391 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:15:395 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:15:395 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:15:395 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:15:395 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:15:584 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:15:584 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:15:584 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:15:585 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:15:589 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:15:589 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:15:589 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:15:589 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:15:787 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:15:788 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:15:790 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:15:792 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:15:796 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:15:797 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:15:797 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/e501fd24-6ab6-4a2e-ba74-3f362bb662ea] to [DELETE http://localhost:8100/session/e501fd24-6ab6-4a2e-ba74-3f362bb662ea] with no body
+2017-07-05 02:31:15:800 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:15:802 - info: [HTTP] <-- POST /wd/hub/session 500 3540 ms - 237 
+2017-07-05 02:31:15:811 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:15:812 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:15:813 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:15:813 - info: [Appium] Capabilities:
+2017-07-05 02:31:15:813 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:15:814 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:15:814 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:15:814 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:15:814 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:15:814 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:15:815 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:15:815 - info: [Appium]   browserName: ''
+2017-07-05 02:31:15:815 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:15:815 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:15:815 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:15:816 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:15:816 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:15:816 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:15:816 - info: [Appium]   noRest: false
+2017-07-05 02:31:15:816 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:15:818 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:15:819 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:15:822 - info: [BaseDriver] Session created with session id: a9722256-3f1b-4d30-9614-ac224bd081d8
+2017-07-05 02:31:15:822 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:15:823 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:16:123 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:16:123 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:16:124 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:16:124 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:16:124 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:16:350 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1ouyk72.zbu8/appium-app.zip
+2017-07-05 02:31:16:350 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1ouyk72.zbu8/appium-app.zip
+2017-07-05 02:31:18:878 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1ouyk72.zbu8/Payload/Deepblu.app'
+2017-07-05 02:31:18:879 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1ouyk72.zbu8/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:18:879 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:18:881 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1ouyk72.zbu8/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:18:882 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:18:883 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:18:995 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:19:165 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:19:165 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:19:165 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:19:166 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:19:166 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:19:167 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:19:171 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:19:171 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:19:172 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:19:172 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:19:390 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:19:391 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:19:391 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:19:392 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:19:399 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:19:399 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:19:400 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:19:401 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:19:607 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:19:607 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:19:607 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:19:607 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:19:611 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:19:612 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:19:612 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/a9722256-3f1b-4d30-9614-ac224bd081d8] to [DELETE http://localhost:8100/session/a9722256-3f1b-4d30-9614-ac224bd081d8] with no body
+2017-07-05 02:31:19:616 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:19:618 - info: [HTTP] <-- POST /wd/hub/session 500 3806 ms - 237 
+2017-07-05 02:31:19:626 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:19:627 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:19:627 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:19:627 - info: [Appium] Capabilities:
+2017-07-05 02:31:19:628 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:19:628 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:19:628 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:19:628 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:19:629 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:19:629 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:19:629 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:19:629 - info: [Appium]   browserName: ''
+2017-07-05 02:31:19:629 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:19:629 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:19:629 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:19:630 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:19:630 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:19:630 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:19:630 - info: [Appium]   noRest: false
+2017-07-05 02:31:19:630 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:19:631 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:19:634 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:19:637 - info: [BaseDriver] Session created with session id: 7d06b961-8338-4944-847f-c959f37c18ce
+2017-07-05 02:31:19:638 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:19:638 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:19:714 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:19:715 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:19:715 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:19:715 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:19:716 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:19:964 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-h0oinw.wx5ms/appium-app.zip
+2017-07-05 02:31:19:964 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-h0oinw.wx5ms/appium-app.zip
+2017-07-05 02:31:22:446 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-h0oinw.wx5ms/Payload/Deepblu.app'
+2017-07-05 02:31:22:446 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-h0oinw.wx5ms/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:22:447 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:22:454 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-h0oinw.wx5ms/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:22:455 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:22:455 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:22:572 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:22:744 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:22:744 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:22:745 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:22:745 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:22:745 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:22:746 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:22:750 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:22:751 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:22:751 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:22:751 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:22:954 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:22:954 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:22:954 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:22:955 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:22:958 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:22:959 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:22:959 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:22:959 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:23:170 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:23:170 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:23:170 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:23:170 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:23:175 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:23:176 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:23:176 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/7d06b961-8338-4944-847f-c959f37c18ce] to [DELETE http://localhost:8100/session/7d06b961-8338-4944-847f-c959f37c18ce] with no body
+2017-07-05 02:31:23:179 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:23:180 - info: [HTTP] <-- POST /wd/hub/session 500 3554 ms - 237 
+2017-07-05 02:31:23:185 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:23:186 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:23:186 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:23:187 - info: [Appium] Capabilities:
+2017-07-05 02:31:23:187 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:23:187 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:23:187 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:23:187 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:23:188 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:23:188 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:23:188 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:23:188 - info: [Appium]   browserName: ''
+2017-07-05 02:31:23:188 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:23:188 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:23:189 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:23:189 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:23:189 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:23:189 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:23:190 - info: [Appium]   noRest: false
+2017-07-05 02:31:23:190 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:23:191 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:23:194 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:23:197 - info: [BaseDriver] Session created with session id: 58328840-8644-4568-b985-5bb7aaff79fa
+2017-07-05 02:31:23:197 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:23:198 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:23:283 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:23:283 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:23:284 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:23:285 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:23:285 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:23:505 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1b7po8f.xvp8/appium-app.zip
+2017-07-05 02:31:23:505 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1b7po8f.xvp8/appium-app.zip
+2017-07-05 02:31:26:475 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1b7po8f.xvp8/Payload/Deepblu.app'
+2017-07-05 02:31:26:476 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1b7po8f.xvp8/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:26:478 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:26:481 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1b7po8f.xvp8/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:26:482 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:26:483 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:26:556 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:27:096 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:27:096 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:27:098 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:27:099 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:27:099 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:27:100 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:27:107 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:27:107 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:27:107 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:27:108 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:27:477 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:27:477 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:27:477 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:27:478 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:27:504 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:27:507 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:27:509 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:27:511 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:27:779 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:27:779 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:27:779 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:27:781 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:27:785 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:27:786 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:27:786 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/58328840-8644-4568-b985-5bb7aaff79fa] to [DELETE http://localhost:8100/session/58328840-8644-4568-b985-5bb7aaff79fa] with no body
+2017-07-05 02:31:27:789 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:27:793 - info: [HTTP] <-- POST /wd/hub/session 500 4605 ms - 237 
+2017-07-05 02:31:27:802 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:27:805 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:27:805 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:27:805 - info: [Appium] Capabilities:
+2017-07-05 02:31:27:806 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:27:806 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:27:806 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:27:806 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:27:806 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:27:806 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:27:807 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:27:807 - info: [Appium]   browserName: ''
+2017-07-05 02:31:27:807 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:27:807 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:27:807 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:27:816 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:27:816 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:27:816 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:27:816 - info: [Appium]   noRest: false
+2017-07-05 02:31:27:817 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:27:818 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:27:820 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:27:823 - info: [BaseDriver] Session created with session id: 36f20cd2-0596-449d-87ac-1513eafe707e
+2017-07-05 02:31:27:824 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:27:824 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:27:917 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:27:917 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:27:917 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:27:917 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:27:918 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:28:144 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1345io8.t4sf/appium-app.zip
+2017-07-05 02:31:28:145 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1345io8.t4sf/appium-app.zip
+2017-07-05 02:31:30:608 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1345io8.t4sf/Payload/Deepblu.app'
+2017-07-05 02:31:30:608 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1345io8.t4sf/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:30:609 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:30:611 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1345io8.t4sf/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:30:611 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:30:612 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:30:739 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:31:017 - info: [debug] [XCUITest] App is already installed.
+2017-07-05 02:31:31:017 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-07-05 02:31:31:018 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:31:018 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:31:018 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:31:018 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:31:024 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:31:024 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:31:024 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:31:025 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:31:395 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:31:395 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:31:396 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:31:396 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:31:400 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:31:400 - info: [debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+2017-07-05 02:31:31:400 - info: [XCUITest] Shutting down sub-processes
+2017-07-05 02:31:31:400 - info: [debug] [XCUITest] Removing WDA application from device
+2017-07-05 02:31:32:006 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-07-05 02:31:32:006 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-07-05 02:31:32:006 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/status'
+2017-07-05 02:31:32:007 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.gen.deepblu.deepblu","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-07-05 02:31:32:011 - info: [debug] [XCUITest] Unable to start WebDriverAgent session: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+2017-07-05 02:31:32:012 - error: [XCUITest] ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+ { ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+  jsonwp: 
+   { Error: connect ECONNREFUSED 127.0.0.1:8100
+       at Object.exports._errnoException (util.js:1022:11)
+       at exports._exceptionWithHostPort (util.js:1045:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 8100 } }
+2017-07-05 02:31:32:012 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/36f20cd2-0596-449d-87ac-1513eafe707e] to [DELETE http://localhost:8100/session/36f20cd2-0596-449d-87ac-1513eafe707e] with no body
+2017-07-05 02:31:32:016 - error: [MJSONWP] Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8100
+    at JWProxy.proxy$ (../../../lib/jsonwp-proxy/proxy.js:126:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+2017-07-05 02:31:32:018 - info: [HTTP] <-- POST /wd/hub/session 500 4215 ms - 237 
+2017-07-05 02:31:32:028 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},"requiredCapabilities":{}}
+2017-07-05 02:31:32:028 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 5S 10.2.1","platformName":"iOS","platformVersion":"10.2.1","udid":"52668eed1d5738a0e51c4149344f637594217a73","bundleId":"","automationName":"XCUITest","autoWebview":false,"browserName":"","locationServicesEnabled":true,"locationServicesAuthorized":true,"wdaLocalPort":8100,"webDriverAgentUrl":"http://localhost:8100/status","showXcodeLog":true,"wdaStartupRetries":10,"noRest":false,"app":"/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa"},{},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+2017-07-05 02:31:32:029 - info: [Appium] Creating new XCUITestDriver session
+2017-07-05 02:31:32:029 - info: [Appium] Capabilities:
+2017-07-05 02:31:32:029 - info: [Appium]   deviceName: 'iPhone 5S 10.2.1'
+2017-07-05 02:31:32:030 - info: [Appium]   platformName: 'iOS'
+2017-07-05 02:31:32:030 - info: [Appium]   platformVersion: '10.2.1'
+2017-07-05 02:31:32:030 - info: [Appium]   udid: '52668eed1d5738a0e51c4149344f637594217a73'
+2017-07-05 02:31:32:030 - info: [Appium]   bundleId: ''
+2017-07-05 02:31:32:030 - info: [Appium]   automationName: 'XCUITest'
+2017-07-05 02:31:32:030 - info: [Appium]   autoWebview: false
+2017-07-05 02:31:32:031 - info: [Appium]   browserName: ''
+2017-07-05 02:31:32:031 - info: [Appium]   locationServicesEnabled: true
+2017-07-05 02:31:32:031 - info: [Appium]   locationServicesAuthorized: true
+2017-07-05 02:31:32:031 - info: [Appium]   wdaLocalPort: 8100
+2017-07-05 02:31:32:031 - info: [Appium]   webDriverAgentUrl: 'http://localhost:8100/status'
+2017-07-05 02:31:32:032 - info: [Appium]   showXcodeLog: true
+2017-07-05 02:31:32:032 - info: [Appium]   wdaStartupRetries: 10
+2017-07-05 02:31:32:032 - info: [Appium]   noRest: false
+2017-07-05 02:31:32:032 - info: [Appium]   app: '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:32:033 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-07-05 02:31:32:034 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: wdaStartupRetries, noRest.
+2017-07-05 02:31:32:036 - info: [BaseDriver] Session created with session id: 449f068e-422b-4f75-a2ad-fcae206d1293
+2017-07-05 02:31:32:047 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-07-05 02:31:32:047 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-07-05 02:31:32:267 - info: [debug] [XCUITest] Available devices: 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:32:268 - info: [debug] [XCUITest] Creating iDevice object with udid 52668eed1d5738a0e51c4149344f637594217a73
+2017-07-05 02:31:32:270 - info: [XCUITest] Determining device to run tests on: udid: '52668eed1d5738a0e51c4149344f637594217a73', real device: true
+2017-07-05 02:31:32:274 - info: [BaseDriver] Using local app '/Users/huweiting/Desktop/ios_appium/ipa/2.2.1.12.ipa'
+2017-07-05 02:31:32:274 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-07-05 02:31:32:637 - info: [debug] [BaseDriver] Unzipping /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/appium-app.zip
+2017-07-05 02:31:32:638 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/appium-app.zip
+2017-07-05 02:31:35:109 - info: [BaseDriver] Unzipped local app to '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app'
+2017-07-05 02:31:35:109 - info: [debug] [XCUITest] Checking whether app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app' is actually present
+2017-07-05 02:31:35:110 - info: [debug] [XCUITest] App is present
+2017-07-05 02:31:35:111 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app': 'com.gen.deepblu.deepblu'
+2017-07-05 02:31:35:112 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-07-05 02:31:35:112 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-07-05 02:31:35:240 - info: [XCUITest] Setting up real device
+2017-07-05 02:31:35:436 - info: [Appium] Received SIGINT - shutting down
+2017-07-05 02:31:35:456 - info: [debug] [XCUITest] Error checking install status: Command 'ios-deploy --exists --id 52668eed1d5738a0e51c4149344f637594217a73 --bundle_id com.gen.deepblu.deepblu' exited with code null
+2017-07-05 02:31:35:457 - info: [debug] [XCUITest] App is not installed. Will try to install.
+2017-07-05 02:31:37:046 - info: [Appium] Received SIGINT - shutting down
+2017-07-05 02:31:37:050 - info: [debug] [XCUITest] Error : Command 'ios-deploy --id 52668eed1d5738a0e51c4149344f637594217a73 --uninstall --bundle /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app' exited with code null
+2017-07-05 02:31:37:054 - error: [XCUITest] Error: Could not install app Command 'ios-deploy --id 52668eed1d5738a0e51c4149344f637594217a73 --uninstall --bundle /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app' exited with code null
+    at IOSDeploy.install$ (../../lib/ios-deploy.js:39:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+ Error: Could not install app Command 'ios-deploy --id 52668eed1d5738a0e51c4149344f637594217a73 --uninstall --bundle /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app' exited with code null
+    at IOSDeploy.install$ (../../lib/ios-deploy.js:39:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+2017-07-05 02:31:37:055 - info: [debug] [XCUITest] Running ios real device reset flow
+2017-07-05 02:31:37:055 - info: [debug] [XCUITest] Resetting simulator
+2017-07-05 02:31:37:056 - info: [debug] [iOSLog] Stopping iOS log capture
+2017-07-05 02:31:37:058 - error: [MJSONWP] Encountered internal error running command: Error: Could not install app Command 'ios-deploy --id 52668eed1d5738a0e51c4149344f637594217a73 --uninstall --bundle /var/folders/b7/_2xv3gmj1vj0qz5x0qnmjcpm0000gn/T/201765-2652-1w5vdhp.55vy/Payload/Deepblu.app' exited with code null
+    at IOSDeploy.install$ (../../lib/ios-deploy.js:39:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+2017-07-05 02:31:37:059 - info: [HTTP] <-- POST /wd/hub/session 500 5031 ms - 362 
+2017-07-05 02:31:39:038 - info: [Appium] Received SIGINT - shutting down
+2017-07-05 02:31:39:406 - info: [Appium] Received SIGINT - shutting down
