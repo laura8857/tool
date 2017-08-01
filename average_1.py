@@ -57,9 +57,10 @@ def average_depth(divelogID):
         watertype = 100
 
     print(airPressure,watertype,dict['diveMaxDepth'])
-    max_depth = (dict['diveMaxDepth']-airPressure)/watertype
+    max_depth = (dict['diveMaxDepth']-airPressure)/float(watertype)
     max_depth_ft = max_depth *ft
-    max_depth = float(str(round(max_depth,2))[:-1])
+    max_depth = round(max_depth*10)/10
+    # max_depth = float(str(round(max_depth,2))[:-1])
 
     print("Max Depth: %s m / %sft"% (max_depth,round(max_depth_ft)))
 
@@ -94,13 +95,13 @@ def average_depth(divelogID):
         temp=diveProfile[items]
         divelog.append(temp['pressure'])
         depth = (temp['pressure'] - airPressure)/watertype
-        print("%.2f m" % (depth))
+        # print("%.2f m" % (depth))
 
-    print('-' * 20)
+    # print('-' * 20)
     for items in range(0, allprofile):
         temp = diveProfile[items]
         depth = (temp['pressure'] - airPressure) / watertype
-        print("%.2f ft" % (depth*ft))
+        # print("%.2f ft" % (depth*ft))
 
 
     # print(divelog)
@@ -130,4 +131,4 @@ def average_depth(divelogID):
     print("\n")
 
 if __name__ == "__main__":
-    get_raw_divelog('yu@deepblu.com')
+    get_raw_divelog('laura@deepblu.com')

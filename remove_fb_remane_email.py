@@ -13,7 +13,7 @@ def rm_email(email):
     now = datetime.now().strftime("%Y%m%d%H%M%S")
     tmp = email.split("@")
     new_mail = tmp[0] + now + '@' + tmp[1]
-    # new_mail = "yu@deepblu.com"
+    # new_mail = "aladin@deepblu.com"
 
     # update to mongodb
     client = MongoClient("52.197.14.177", 27017)
@@ -50,8 +50,8 @@ def rm_fb(email):
 
 
 if __name__ == "__main__":
-    rm_email("hi@deepblu.com")
-    #rm_fb("101403032@cc.ncu.edu.tw")
+    rm_email("hi3@deepblu.com")
+    # rm_fb("101403032@cc.ncu.edu.tw")
 
 
-# 10140303220170602102035@cc.ncu.edu.tw
+# 10140303220170731171900@cc.ncu.edu.tw

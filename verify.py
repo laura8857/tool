@@ -39,4 +39,4 @@ def verify(email):
         print('Send notification.Verify successfully!')
 
 if __name__ == "__main__":
-    verify('hi@deepblu.com')
+    verify('hi3@deepblu.com')
