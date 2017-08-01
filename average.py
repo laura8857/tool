@@ -153,4 +153,4 @@ def average_depth(divelogID):
     plt.close()
 
 if __name__ == "__main__":
-    get_raw_divelog('hi@deepblu.com')
+    get_raw_divelog('laura@deepblu.com')
