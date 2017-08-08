@@ -50,5 +50,5 @@ def raw_divelog_count(email):
 
 if __name__ == "__main__":
     #raw_divelog_count("tagger@deepblu.com")
-    remove_raw_divelog("hi2@deepblu.com")
+    remove_raw_divelog("101403032@cc.ncu.edu.tw")
 

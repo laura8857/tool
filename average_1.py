@@ -131,4 +131,4 @@ def average_depth(divelogID):
     print("\n")
 
 if __name__ == "__main__":
-    get_raw_divelog('laura@deepblu.com')
+    get_raw_divelog('101403032@cc.ncu.edu.tw')
