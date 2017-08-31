@@ -17,8 +17,9 @@ def get_raw_divelog(email):
     # for i in range(0,l):
     #     average_depth(divelogs[l-i-1])
 
-    for i in divelogs:
-        average_depth(i)
+    l = len(divelogs)
+    for i in range(0, l):
+        average_depth(divelogs[l - i - 1])
 
 def average_depth(divelogID):
     # if len(sys.argv)==2:
@@ -29,6 +30,8 @@ def average_depth(divelogID):
     # temp = {}
     # dict = result
     dict = divelogID
+    print('DivelogId: %s' % divelogID['_id'])
+    print('DiveType: %s' % divelogID['diveType'])
     divelog = []
 
 
@@ -59,6 +62,7 @@ def average_depth(divelogID):
     print(airPressure,watertype,dict['diveMaxDepth'])
     max_depth = (dict['diveMaxDepth']-airPressure)/float(watertype)
     max_depth_ft = max_depth *ft
+    print('Max Dapth: %s m'% max_depth)
     max_depth = round(max_depth*10)/10
     # max_depth = float(str(round(max_depth,2))[:-1])
 
@@ -108,11 +112,12 @@ def average_depth(divelogID):
     # print("Total is "+ str(sum(divelog)))
 
     # [(logDive._diveProfile.pressure 加總 ÷ profile總數) - air pressure] / waterType
-    average=((sum(divelog)/allprofile)-airPressure)/watertype
+    average=((sum(divelog)/allprofile)-airPressure)/float(watertype)
     # average=round(sum(divelog)/allprofile,1)
     # print("sum(divelog)/allprofile:"+str(sum(divelog)/allprofile))
     # average=(average-airPressure)/watertype
-    print("average: %.1f m, %f m" % (round(average,2),average))
+    print("average: %.1f m, %f m" % (round(average,1),average))
+    print("average: %.1f m, %f m" % (average, average))
     print("average: %.1f ft, %f ft" % (round(average*ft,2),average*ft))
 
 
@@ -128,7 +133,7 @@ def average_depth(divelogID):
         min = round(duration/60)
 
     print("duration: %s:%s / %s seconds" %(hour,min,duration))
-    print("\n")
+    print('======================\n')
 
 if __name__ == "__main__":
-    get_raw_divelog('101403032@cc.ncu.edu.tw')
+    get_raw_divelog('hi@deepblu.com')

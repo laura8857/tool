@@ -50,8 +50,10 @@ def rm_fb(email):
 
 
 if __name__ == "__main__":
-    rm_email("hi@deepblu.com")
+    rm_email("hi2@deepblu.com")
     # rm_fb("101403032@cc.ncu.edu.tw")
 
 
 # 10140303220170731171900@cc.ncu.edu.tw
+
+# test 10140303220170818145019@cc.ncu.edu.tw

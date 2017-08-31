@@ -24,6 +24,7 @@ def remove_terms_conditions(email):
 
     #connect mysql db
     db = pymysql.connect(host='52.197.14.177',user='root',passwd='54353297',db='test',port=3306,charset='utf8')
+    # 獲取一個游標
     cursor = db.cursor()
 
     sql = "DELETE FROM deepblu.SignCondition WHERE userId='"+id+"'"
@@ -34,6 +35,9 @@ def remove_terms_conditions(email):
         print('Succuss')
     except:
         print('Error')
+    # 關閉游標
+    cursor.close()
+    #disconnect db
     db.close()
 
 if __name__ == "__main__":

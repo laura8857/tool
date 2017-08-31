@@ -65,7 +65,7 @@ def average_depth(divelogID):
         watertype = 100
 
     # print(airPressure,watertype,dict['diveMaxDepth'])
-    max_depth = (dict['diveMaxDepth']-airPressure)/watertype
+    max_depth = (dict['diveMaxDepth']-airPressure)/float(watertype)
     # max_depth_1 = int(dict['diveMaxDepth']-airPressure)*4/41*10
     # print(max_depth,max_depth_1)
     max_depth_ft = float(int(max_depth *100/3048*1000))/10
@@ -110,7 +110,7 @@ def average_depth(divelogID):
     # print("Total is "+ str(sum(divelog)))
 
     # [(logDive._diveProfile.pressure 加總 ÷ profile總數) - air pressure] / waterType
-    average=((sum(divelog)/allprofile)-airPressure)/watertype
+    average=((sum(divelog)/allprofile)-airPressure)/float(watertype)
     # average=round(sum(divelog)/allprofile,1)
     # print("sum(divelog)/allprofile:"+str(sum(divelog)/allprofile))
     # average=(average-airPressure)/watertype
@@ -136,21 +136,21 @@ def average_depth(divelogID):
     for item in divelog:
         depth = (item-airPressure)/watertype
         all_point.append(0-depth)
-        print(depth)
+        # print(depth)
     all_point.append(0)
     print('======================\n')
 
-    # 將圖畫出來
-    plt.figure(figsize=(96*20/96, 620/96), dpi=96)
-    plt.plot(all_point)
-    plt.ylabel('depth')
-    x = str('id:'+divelogID['_id']+', type:'+divelogID['diveType'])
-    plt.xlabel(x)
-
-    # 存檔
-    plt.savefig(os.getcwd()+'/img/'+divetime+'.png')
-    # plt.show()
-    plt.close()
+    # # 將圖畫出來
+    # plt.figure(figsize=(96*20/96, 620/96), dpi=96)
+    # plt.plot(all_point)
+    # plt.ylabel('depth')
+    # x = str('id:'+divelogID['_id']+', type:'+divelogID['diveType'])
+    # plt.xlabel(x)
+    #
+    # # 存檔
+    # plt.savefig(os.getcwd()+'/img/'+divetime+'.png')
+    # # plt.show()
+    # plt.close()
 
 if __name__ == "__main__":
-    get_raw_divelog('laura3@deepblu.com')
+    get_raw_divelog('101403032@cc.ncu.edu.tw')

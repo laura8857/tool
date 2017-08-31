@@ -43,7 +43,7 @@ def send_push_msg(content, url, time, type, user_id):
 if __name__ == "__main__":
     # Get
     dict = {}
-    result = get_users('laura@deepblu.com')
+    result = get_users('laura4@deepblu.com')
     dict = result[0]
     user_id = dict['id']
 
