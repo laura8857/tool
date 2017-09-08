@@ -1,0 +1,11 @@
+使用pip安裝但是要指定版本才有支援python3
+> pip3 install locustio==0.8a2
+
+安裝完成後先找到locust的執行位置
+> mdfind locust
+找到的位置可能為/Library/Frameworks/Python.framework/Versions/3.6/bin/locust
+
+執行locust須提供執行的script檔案
+> python /Library/Frameworks/Python.framework/Versions/3.6/bin/locust -f locustfile.py --host=http://test.tritondive.co:8000
+
+開啟service後，在browser中開啟127.0.0.1:8089就可以開啟web設定畫面
