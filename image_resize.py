@@ -5,8 +5,8 @@ from PIL import Image
 
 def resize():
     # img原圖 img2:比例圖
-    img = Image.open("/Users/huweiting/Desktop/image.jpg")
-    img2 = Image.open("/Users/huweiting/Desktop/Screenshot.png")
+    img = Image.open("/Users/laura/Desktop/dog.JPG")
+    img2 = Image.open("/Users/laura/Desktop/post.PNG")
     print(img.size, img2.size)
 
     # 依照img1/img2的寬比例 去resize img
@@ -17,7 +17,7 @@ def resize():
     nim = img.resize((width, height), Image.BILINEAR)
 
     print(nim.size)
-    nim.save("/Users/huweiting/Desktop/resized.jpg")
+    nim.save("/Users/laura/Desktop/resized.jpg")
 
 
 def crop():
@@ -37,4 +37,4 @@ def crop():
 
 if __name__ == "__main__":
     resize()
-    crop()
+    # crop()
